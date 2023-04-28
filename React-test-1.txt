@@ -1,0 +1,34 @@
+1>State vs Props
+Ans>State are the current condtion(values) of the UI and Props are the stand for property where this can be use for the parameters in fucntion which 
+are all part of the react components.
+
+2>Type of Components(TWO)
+Ans>Class Components and Functional Components
+
+3>Name of component life cycle stage 
+Ans>First:event, Second:Handler, Third:State
+
+4>Return Of useState() Hook
+Ans>useState hook return the set value of updated state of the event occured.
+
+5>Context
+Ans>Context is use to receive all the props from GrandParent And can be use in directly to child component.
+It was introduce to handle the problem of prop drilling.
+
+
+6>Uni Directional Data Flow
+Ans>Here to understand this flow we can handle the value of the input tag with the help of onchange event where onchange event "setState" for 
+this input value for the futher operation.
+
+7>Purpose of the "Lifting The State up"
+Ans>Lifting State Up is the concept we use in react for changing the perticular UI for the specific operation Exe. Like Accordion Where panel can be controlled 
+by the event handler.
+
+8>this.state.candidateName="chintan"
+>Ans> Not Right way to set the value in the state need to use setState for the operation
+
+9>useEffect
+>Ans>useEffect mimic the life cycle where it will take place when some change was taken place.
+
+10>
+Ans>{<input type="text" value="state" onChange={()=>setState(e.target.value)} />}
